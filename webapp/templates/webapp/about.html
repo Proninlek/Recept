@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load static %}
+<article class="media content-section">
+    <div class="media-body">
+        <h3 class="article-title">О нас</h3>
+        <img src="{% static 'webapp/images/about_us-1024x811.jpg' %}" class="img-fluid rounded" style="margin-bottom: 1rem;"
+             alt="Фото участников клуба">
+        <p class="article-content">Это клуб любителей готовить! Ежедневно мы выкладываем сотни видео и фото рецептов на сайте и в нашем канале. Наши авторы готовят дома и в студии, делятся своими секретами и дают рекомендации по приготовлению блюд.</p>
+    </div>
+</article>
+{% endblock content %}
